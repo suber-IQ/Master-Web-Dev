@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Details Form HW</title>
+</head>
+<body>
+
+
+    <!-- http://127.0.0.1:5500/02_HTML/08_Lecture/homework/website_url?name=Sumit+kumar&DOB=2003-06-25&gender=Male&blood=AB%2B&glasses=No&preCondition=perfect&allergies=None&Medications=all+good&emergencyContactName=Batbazigod&emergencyContactPhone=1111111111&relationEmergencyContact=1313103111 -->
+
+    <form action="/submit" method="post">
+        <h1>Health Details Form</h1>
+
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <!-- Full Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="Name">
+            <br><br>
+            <!-- DOB -->
+             <label for="DOB">Date of Birth:</label>
+             <input type="date" id="DOB" name="DOB">
+             <br><br>
+            <!-- Gender -->
+             <label for="gender">Gender</label>
+             <select name="gender" id="gender" required>
+                <option value="">Select the Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+             </select>
+             <br><br>
+             <!-- Contact -->
+              <label for="contact">Phone Number:</label>
+              <input type="tel" id="contact" name="contact" required>
+              <br><br>
+            
+        </fieldset>
+        <!-- Medical History -->
+        <fieldset>
+            <legend>Medical History</legend>
+            <!-- Blood Group -->
+            <label for="Blood">Blood Group:</label>
+            <select name="Blood" id="Blood" required>
+               <option value="">Select your Blood Group</option>
+               <option value="A+">A+</option>
+               <option value="A-">A-</option>
+               <option value="B+">B+</option>
+               <option value="B-">B-</option>
+               <option value="AB+">AB+</option>
+               <option value="AB-">AB-</option>
+               <option value="O+">O+</option>
+               <option value="O-">O-</option>
+            </select>
+            <br><br>
+             <!-- Contact Lenses -->
+            <label>Do you wear glasses or contact lenses?</label>
+            <br>
+            <input type="radio" name="ContactLense" id="Yes" value="Yes">
+            <label for="Yes">Yes</label>
+            <br>
+            <input type="radio" name="ContactLense" id="No" value="No">
+            <label for="No">No</label>
+            <br><br>
+            <!-- Pre-existing Conditions -->
+             <label for="Pre-existing">Pre-existing Conditions:</label>
+             <br>
+             <textarea name="Pre-existing" id="Pre-existing" placeholder="List any pre-existing medical conditions" rows="4" cols="50"></textarea>
+             <br><br>
+             <!-- Allergies -->
+              <label for="">Allergies:</label>
+              <br>
+              <input type="checkbox" id="Pollen" value="Pollen" name="Allergies">
+              <label for="Pollen">Pollen</label>
+              <br>
+              <input type="checkbox" id="Peanuts" value="Peanuts" name="Allergies">
+              <label for="Peanuts">Peanuts</label>
+              <br>
+              <input type="checkbox" id="latex" value="latex" name="Allergies">
+              <label for="latex">Latex</label>
+              <br>
+              <input type="checkbox" name="Allergies" id="None" value="None">
+              <label for="None">None</label>
+            <br><br>
+
+            <!-- Current Medications -->
+            <label for="Medication">Current Medications:</label>
+            <br>
+            <textarea name="Medication" id="Medication" placeholder="List any current medications" rows="4" cols="50"></textarea>
+            <br><br>
+        </fieldset>
+
+        <!-- Emergency Contact -->
+         <fieldset>
+            <legend>Emergency Contact</legend>
+            <!-- Emergency Contact Name -->
+            <label for="EmergencyContact">Emergency Contact Name:</label>
+            <input type="text" id="EmergencyContact" name="EmergencyContact">
+            <br><br>
+
+            <!-- Emergency Contact Phone -->
+            <label for="EmergencyContactPhone">Emergency Contact Phone:</label>
+            <input type="tel" id="EmergencyContactPhone" name="EmergencyContactPhone">
+            <br><br>
+
+            <!-- Relation -->
+             <label for="relationship">Relationship to Emergency Contact:</label>
+            <input type="text" id="relationship" name="relationshipToPerson">
+         </fieldset>
+         <br><br>
+          <!-- <button>Submit</button> -->
+          <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
