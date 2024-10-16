@@ -199,3 +199,109 @@ assigned ports by the operating system
 
 ---
 # 🎏 HTML
+
+1. Install Visual Studio Code
+This is a free piece of software from Microsoft that you will use to
+write your code.
+`https://code.visualstudio.com/`
+2. Install Visual Studio Code Extensions
+Extensions are like plugins that extend the functionality of VSCode.
+Here are the ones that I've installed. Click on the link and then click on
+the "install" button and it should automatically install it in your VSCode
+application.
+Live Preview
+Prettier
+vscode-icons
+
+## 🌟Inline Elements:
+
+- a> - Anchor (link)
+- abbr> - Abbreviation
+- acronym> - Acronym (deprecated in HTML5)
+- b> - Bold text
+- bdo> - Bi-directional override
+- big> - Bigger text (deprecated in HTML5)
+- br> - Line break
+- button> - Button (can be block or inline depending on context)
+- cite> - Citation
+- code> - Inline code snippet
+- dfn> - Definition term
+- em> - Emphasis (usually italic)
+- i> - Italic text
+- img> - Image
+- input> - Input field (can be block or inline depending on context)
+- kbd> - Keyboard input
+- label> - Label for input
+- map> - Client-side image map
+- mark> - Highlighted text
+- meter> - Scalar measurement within a known range
+- noscript> - Fallback content if scripts are disabled
+- object> - Embedded object (like multimedia files)
+- output> - Result of a calculation
+- progress> - Progress bar
+- q> - Inline quotation
+- s> - Strikethrough text
+- samp> - Sample output from a computer program
+- script> - Inline script (can also be placed in the head or body, but by default inline)
+- select> - Drop-down list
+- small> - Smaller text
+- span> - Generic inline container for grouping content
+- strong> - Strong emphasis (usually bold)
+- sub> - Subscript text
+- sup> - Superscript text
+- textarea> - Multi-line text input
+- time> - Date/time
+- tt> - Teletype text (deprecated in HTML5)
+- u> - Underlined text
+- var> - Variable in a mathematical expression or programming context
+- wbr> - Word break opportunity
+
+## 🌟Block Elements:
+
+- address> - Contact information for the author or owner of the content
+- article> - Independent content
+- aside> - Content aside from the main content (e.g., sidebars)
+- blockquote> - Long quotation
+- canvas> - Drawing area for JavaScript (HTML5)
+- dd> - Definition description (used inside - dl>)
+- div> - Generic container for block-level content
+- dl> - Description list
+- dt> - Definition term (used inside - dl>)
+- fieldset> - Group of input fields and labels
+- figcaption> - Caption for a figure
+- figure> - Group of media content like images and captions
+- footer> - Footer section of a document or section
+- form> - Form for user input
+- h1> to - h6> - Header elements from most important (- h1>) to least (- h6>)
+- header> - Header section of a document or section
+- hr> - Horizontal rule (a line or separator)
+- li> - List item (used inside - ul>, - ol>, or - menu>)
+- main> - Main content area of the document
+- nav> - Navigation links
+- ol> - Ordered list
+- p> - Paragraph
+- pre> - Preformatted text (preserves whitespace and line breaks)
+- section> - Section of content
+- table> - Table container
+- tbody> - Table body
+- td> - Table data cell (inside - tr>)
+- tfoot> - Table footer
+- th> - Table header cell (inside - tr>)
+- thead> - Table header
+- tr> - Table row
+- ul> - Unordered list
+- video> - Video player
+- audio> - Used to embed an audio player into a webpage.
+- details> - A collapsible content section (HTML5)
+- dialog> - A dialog box or window (HTML5)
+- summary> - Summary for - details> (HTML5)
+
+---
+# 🎏 CSS
+
+
+
+
+
+---
+# 🎏 JavaScript
