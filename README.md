@@ -299,7 +299,94 @@ vscode-icons
 ---
 # 🎏 CSS
 
+### 👉 1: Child property
+### 👉 2: CSS color:
+1. Named color
+2. RGB color
+3. Hexadecimal Colors
+4. Alpha (transparent to opaque)
+5. HSL Colors
+  - HSL stands for hue, saturation, and lightness. Hue is the
+color type (a degree on the color wheel from 0 to 360),
+saturation is the intensity of the color (0% is grayscale, 100%
+is fully saturated), and lightness defines how light or dark the
+color is (0% is black, 100% is white).
+6. background-color
+  - background-size: cover; To cover entire element
+  - background-repeat: no-repeat; Prevents the image from repeating
+### 👉 3: CSS fonts
+1. font-family
+2. Font-size
+  - 10px
+  - 2em
+  - 3 rem
+  - 120%
+  - Viewport width 20vw (20% of viewportwidth)
+  - Viewport height 20vh
+3. Font-weight (normal, bold, or numerical
+values from 100 to 900.)
+4. Font-style (italic, oblique, or normal.)
+5. Font-variant () // Homework
+6. line-height: 1.5; /* 1.5 times the font
+size */
+7. letter-spacing
+8. Word-spacing
+9. Text-transform
+10. Font-stretch // Homework
+## 🌟Cascading:
+  - Order
+  - Specificity
+    - ID
+    - Attribute
+    - Class
+    - Child and descendent
+    - Element and group element
+  - Type
+    - Inline
+    - Internal and external css
+  - Important
 
+## 🌟Priority 
+  `First !important > inline style > depend ordering (internal & external styles ) > ID > Attribute > class > depend ordering (child & descendent)> depend ordering ( Element & group element)`
+
+## 🌟CSS Homework Assignment Instructions
+### 👉 Objective: Create a CSS file to style an HTML page. Follow the
+instructions below to write your own CSS code.
+Instructions:
+1. Set Global Styles:
+  - Use the body tag to set:
+    - ■ font-family to 'Verdana', sans-serif;
+    - ■ color to #333
+    - ■ background-color to #f0f0f0
+2. Style the Header:
+  - Create a style for the header tag:
+    - ■ Set background-color to #4CAF50
+■ Change color to white
+3. Heading Styles:
+  - For the h1 tag:
+    - ■ Set font-size to 3em
+    - ■ Use font-weight as bold
+  - For the h2 tag:
+    - ■ Set font-size to 1.5em
+    - ■ Set color to #FFD700
+4. Article Styles:
+  - For the article tag, set background-color to
+white.
+  - Style headings (h3) and paragraphs (p) within the
+.css-article class with different font sizes and
+colors.
+5. List Styles:
+  - For h4 tags:
+    - ■ Set color to #FF69B4
+    - ■ Set font-size to 1.5em
+6. Table Styles:
+  - For the table element, set background-color to
+#f9f9f9.
+  - Style the th elements with background-color of
+#007BFF and color as white.
+7. Footer Styles:
+  - For the footer, set color to #333 and
+background-color to #ccc
 
 
 

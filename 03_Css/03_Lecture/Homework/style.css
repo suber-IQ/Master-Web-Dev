@@ -1,0 +1,50 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #4CAF50;
+}
+header > h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+}
+header > h2{
+    color: #FFD700;
+    font-size: 1.5em;
+}
+article{
+    background-color: #fff;
+}
+main > article > h3{
+    color: blueviolet;
+    font-size: 2em;
+}
+main > article > h4{
+    color: #FF69B4;
+    font-size: 1.5em;
+}
+main > article:nth-child(2) > h3{
+    color: orangered;
+    font-size: 2em;
+}
+
+
+main > table {
+    background-color: #f9f9f9;
+}
+
+th{
+    background-color: #007BFF;
+    text-align: start;
+    color: #fff;
+    width: 50vw;
+}
+
+footer{
+    color: #333;
+    background-color: #ccc;
+    font-weight: bold;
+}
