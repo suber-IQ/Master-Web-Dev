@@ -1,0 +1,49 @@
+/* *{
+    margin: 0;
+}
+
+.first, .third{
+   display: inline-block;
+   height: 40vh;
+   width: 25vw;
+   background-color: red;
+}
+
+.second, .fourth{
+    display: inline-block;
+    height: 40vh;
+    width: 60vw;
+    background-color: red;
+}
+
+.second, .fourth{
+    margin-left: 15vw;
+}
+
+.third, .fourth{
+    margin-top: 20vh;
+} */
+
+*{
+    margin: 0;
+}
+
+.first, .third{
+    display: inline-block;
+    background-color: red;
+    width: 35vw;
+    height: 25vh;
+}
+.third{
+    margin-top: 49vh;
+}
+.second, .fourth{
+    margin-left: 14.6vw;
+}
+
+.second, .fourth{
+    display: inline-block;
+    background-color: red;
+    width: 50vw;
+    height: 25vh;
+}
