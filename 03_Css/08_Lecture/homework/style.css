@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 243, 243);
+}
+.inline_block{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+
+header > nav{
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    position: relative;
+
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav > .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav img{
+    width: 1.3rem;
+}
+
+nav > .search_bar{
+    width: 55%;
+    padding: 0.7rem;
+    box-shadow: 0 0 2px rgb(185, 116, 116);
+}
+nav .heading{
+    width: 15%;
+}
+nav .address,nav .search_input, nav .drop_icon{
+    position: relative;
+    bottom: 5px;
+}
+nav .address > p{
+  color: rgb(151, 143, 143);
+}
+nav .drop_icon > span > img{
+    width: 0.75rem;
+}
+nav .drop_icon{
+    margin-left: 2rem;
+    border-right: 2px solid rgb(139, 132, 132,0.5);
+    padding-right: 0.6rem;
+}
+nav .location{
+    width: 40%;
+}
+nav .search{
+    width: 58%;
+}
+nav .search_input{
+    width: 90%;
+}
+nav .search_input > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+nav .login{
+    /* margin-left: 3rem; */
+    position: absolute;
+    bottom: 15px;
+    margin-left: 8rem;
+}
+nav .login > a, nav .sign_up > a{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+nav .sign_up{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+/* ************************main***********  */
+
+main .dinning_img > img,main .delivery_img > img{
+    width: 2.2rem;
+}
+main .choice{
+    margin-top: 2rem;
+}
+main .choice > .dinning{
+    margin-right: 3rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 2px solid red;
+}
+main .dinning_icon .dinning_img,main .delivery_icon .delivery_img{
+    background-color: rgb(161, 155, 155,0.3);
+    padding: 0.7rem 0.85rem;
+    border-radius: 50vw;
+    margin-right: 0.5rem;
+}
+main .dinning_icon > h3{
+    color: red;
+    position: relative;
+    bottom: 14px;
+}
+main .delivery_icon > h3{
+    position: relative;
+    bottom: 14px;
+    color: grey;
+}
+main .filter{
+    margin-top: 1.8rem;
+}
+
+main .filter_container{
+    display: inline-block;
+    /* border: 1px solid grey; */
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.3rem;
+    color: rgb(153, 149, 149,0.8);
+    box-shadow: 0 0 2px rgb(176, 165, 165);
+    margin-right: 1rem;
+}
+main .filter_container .filter_icon > img{
+    width: 0.9rem;
+    color: grey;
+    position: relative;
+    top: 1px;
+}
+
+main .banner{
+    width: 100%;
+    margin-top: 2rem;
+}
+main .banner_container > img{
+    width: 100%;
+}
+
+
+
+/* **********CARD******** */
+
+
+.card_section{
+    margin-top: 2rem;
+}
+.card_section > .heading{
+    margin-bottom: 2rem;
+}
+
+.image{
+    width: 100%;
+    position: relative;
+}
+.image > img{
+    width: 100%;
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(218, 43, 16, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.card{
+    width: 30%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 20px solid rgb(253, 243, 243);
+    border-radius: 20px;
+}
+
+
+.Box{
+    display: inline-block;
+}
+
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.Restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Restaurant , .food, .Location{
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.price, .Distance{
+    position: absolute;
+    right: 5px;
+}
+
+.food, .Place{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.Distance{
+    font-size: 10px;
+    font-weight: bold;
+}
