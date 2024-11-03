@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.left-containter{
+    padding-left: 5%;
+}
+.equal-padding{
+    padding: 0.5rem;
+}
+.flex{
+    display: flex;
+}
+
+.gap-mini{
+    gap: 0.2rem;
+}
+.gap-small{
+    gap: 0.6rem;
+}
+
+.gap-medium{
+    gap: 0.8rem;
+}
+.gap-large{
+    gap: 1.2rem;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+
+/* **********Top Nav**************** */
+
+header nav > .top_nav{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding: 0.5rem 0;
+}
+header nav > .top_nav > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .top_nav .left_location > .loc_title > h1{
+    color: #404040;
+    font-weight: 600;
+}   
+header nav .top_nav .left_location > .loc_origin span:first-child{
+    color: red;
+    font-size: 0.8rem;
+}
+
+header nav .top_nav .left_location > .loc_origin > small{
+    color: red;
+    font-size: 0.65rem;
+    font-weight: bold;
+    line-height: 9px;
+    padding-top: 0.23rem;
+}
+header nav .top_nav .right_item{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+header nav .top_nav .right_item .search_icon > img{
+    display: flex;
+    width: 1.28rem;
+}
+header nav .top_nav .right_item .use_btn > button{
+    padding: 0.4rem;
+    font-size: 0.67rem;
+    background-color: transparent;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 0.3rem;
+}
+/* **********bottom Nav**************** */
+
+
+header nav .bottom_nav > .nav_highlight {
+    display: flex;
+    overflow-x: auto;
+    padding: 0.5rem 0;
+}
+header nav .bottom_nav > .nav_highlight > img{
+    width: 3.8rem;
+}
+
+
+/* **********Main banner section**************** */
+
+main section.banner{
+    width: 100vw;
+}
+main section.banner .banner_content{
+    display: flex;
+    overflow-x: auto;
+}
+
+
+main section.banner .banner_content > img{
+    width: 100%;
+}
+
+/* **********Main ads section**************** */
+main section.ads{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+main section.ads > img{
+    width: 100%;
+}
+
+/* **********Movies Card section**************** */
+
+
+main section.movies_card{
+    width: 100vw;
+}
+
+main section.movies_card .card_head > h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+main section.movies_card .card_head .card_more__icon > span{
+    font-size: 0.77rem;
+    color: red;
+}
+main section.movies_card .card_head .card_more__icon > small{
+    font-size: 0.6rem;
+    color: red;
+    font-weight: bold;
+}
+
+main section.movies_card .card_content{
+    width: 100%;
+    padding-top: 1rem;
+    overflow-x: auto;
+}
+main section.movies_card .card_content > .card_item{
+    min-width: 33.3%;
+    padding: 0.2rem;
+}
+
+main section.movies_card .card_content .card_item .card_img > img{
+        width: 100%;
+        object-fit: contain;
+        border-radius: 0.3rem;
+}
+
+main section.movies_card .card_content .card_item .card_desc {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    background-color: #f2f5fa;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+main section.movies_card .card_content .card_item .card_desc > div {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+main section.movies_card .card_content .card_item .card_desc > div:first-child > span {
+    color: orange;
+}
+main section.movies_card .card_content .card_item .card_title > p {
+    font-size: 0.85rem;
+    padding-top: 0.3rem;
+}
