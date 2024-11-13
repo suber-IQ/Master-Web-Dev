@@ -267,7 +267,6 @@ nav .nav_content .second_side .card > .Nav_title{
         padding-top: var(--p-mini);
         flex-direction: column;
         gap: 0.3rem;
-        background-color: grey;
     }
     nav .nav_content .first_side{
         width: 100%;
@@ -561,7 +560,6 @@ section.info .info_desc .info_desc__content .info_desc__code > iframe{
 @media (max-width: 480px) {
 
     .container{
-        border: 1px solid blue;
         width: 100%;
         height: min-content;
     }
