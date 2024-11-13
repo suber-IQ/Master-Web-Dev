@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidebar Dropdown</title>
+<style>
+  /* Basic styling */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  /* Sidebar container */
+  .sidebar {
+    width: 250px;
+    background-color: #2f2f2f;
+    color: white;
+    overflow: hidden;
+  }
+
+  /* Sidebar links */
+  .sidebar ul {
+    list-style-type: none;
+  }
+
+  .sidebar ul li {
+    position: relative;
+  }
+
+  .sidebar ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #2f2f2f;
+    transition: background-color 0.3s;
+  }
+
+  /* Hover effect for main items */
+  .sidebar ul li a:hover {
+    background-color: #3a3a3a;
+  }
+
+  /* Dropdown container */
+  .sidebar ul li ul {
+    display: none;
+    background-color: #414141;
+    padding-left: 15px;
+  }
+
+  /* Dropdown item styling */
+  .sidebar ul li ul li a {
+    padding: 12px;
+    font-size: 14px;
+    color: #b0b0b0;
+    background-color: #414141;
+  }
+
+  /* Hover effect for dropdown items */
+  .sidebar ul li ul li a:hover {
+    background-color: #525252;
+    color: white;
+  }
+
+  /* Show dropdown on hover */
+  .sidebar ul li:hover > ul {
+    display: block;
+  }
+
+  /* Arrow indicator */
+  .sidebar ul li a:after {
+    content: '▶';
+    float: right;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
+
+  /* Rotate arrow when active */
+  .sidebar ul li:hover > a:after {
+    transform: rotate(90deg);
+  }
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    
+    <li><a href="#">Programming Languages</a>
+      <ul>
+        <li><a href="#">Python</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">C++</a></li>
+      </ul>
+    </li>
+    
+    <li><a href="#">Data Structures</a>
+      <ul>
+        <li><a href="#">Arrays</a></li>
+        <li><a href="#">Linked Lists</a></li>
+        <li><a href="#">Stacks</a></li>
+        <li><a href="#">Queues</a></li>
+      </ul>
+    </li>
+    
+    <li><a href="#">Algorithms</a>
+      <ul>
+        <li><a href="#">Sorting</a></li>
+        <li><a href="#">Searching</a></li>
+        <li><a href="#">Graph Algorithms</a></li>
+        <li><a href="#">Dynamic Programming</a></li>
+      </ul>
+    </li>
+    
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+</body>
+</html>

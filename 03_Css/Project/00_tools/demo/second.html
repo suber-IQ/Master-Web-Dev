@@ -1,0 +1,52 @@
+
+nav .nav_content .second_side ul li:hover {
+    transform: translateY(-10px); /* Moves the card up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Bigger shadow */
+  }
+  
+  .arrow_icon, .nav_icon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  nav .nav_content .second_side ul li:hover .arrow_icon {
+    transform: translateY(-10px); /* Arrow icon moves up on hover */
+    opacity: 0.8; /* Slightly fade the arrow icon */
+  }
+  
+  nav .nav_content .second_side ul li:hover .nav_icon {
+    transform: scale(1.1); /* Nav icon slightly grows */
+  }
+  
+  .Nav_title {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+  }
+  
+  nav .nav_content .second_side ul li:hover .Nav_title {
+    opacity: 1; /* Title appears fully when hovered */
+  }
+  
+  /* Optional: Add background image or color transition */
+  nav .nav_content .second_side ul li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #6e7dff, #a0b7ff);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1; /* Keep it behind the content */
+  }
+  
+  nav .nav_content .second_side ul li:hover::before {
+    opacity: 0.1; /* Background fades in on hover */
+  }
+
+
+
