@@ -3,73 +3,561 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+
+    <!-- // 👉 Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
+
     <header>
-        <nav class="navbar">
-            <a href="#home" class="logo">My Portfolio</a>
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="hamburger">&#9776;</label>
-            <ul class="nav-links">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav>
+            <div class="container">
+                <div class="nav_content">
+                    <div class="nav_heading">
+                        <h1><img src="https://img.icons8.com/?size=100&id=82471&format=png&color=000000" alt="logo"></h1>
+                    </div>
+                    <div class="nav_menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="nav_link">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">My Skills</a></li>
+                            <li><a href="#">My Projects</a></li>
+                            <li><a href="#">Contact Me</a></li>
+                            <div class="nav_button">
+                                <li><button>Download CV</button></li>
+                                <li><button>Contact Me</button></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Showcasing my skills and projects</p>
-        </div>
-    </section>
+    <main>
+        <section id="#home">
+               <div class="container">
+                 <div class="home_content">
+                     <div class="first_home__side">
+                        <div class="port_img">
+                            <img src="https://res.cloudinary.com/suberiq/image/upload/v1731516913/lhi6r2ttwwitysjeae9h.jpg" alt="sumit img">
+                        </div>
+                        <div class="port_title">
+                            <h3>Sumit kumar</h3>
+                        </div>
+                        <div class="port_desc">
+                            <h5>Web Developer</h5>
+                        </div>
+                        <div class="port_social__media">
+                            <a><img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" alt="instagram"></a>
+                            <a><img src="https://img.icons8.com/?size=100&id=13963&format=png&color=000000" alt="twitter"></a>
+                            <a><img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="github"></a>
+                            <a><img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="linkdin"></a>
+                        </div>
+                     </div>
+                     <div class="second_home__side">
+                        <p>
+                            Hi, I’m Sumit kumar, A Web Developer, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+                        </p>
+                     </div>
+                 </div>
+               </div>
+        </section>
+    </main>
+    <main>
+        <section id="#services">
+                 <div class="container">
+                    <div class="service_content">
+                        <div class="service_heading">
+                            <span><img src="https://img.icons8.com/?size=100&id=43830&format=png&color=FFFFFF" alt="down arrow"></span>
+                            <h2>My Services</h2>
+                        </div>
+                        <div class="service_card__container">
+                            <div class="service_card">
+                                <span><img src="https://img.icons8.com/?size=100&id=11260&format=png&color=000000" alt="code icon"></span>
+                                <div class="card_title">
+                                    <h4>Web Development</h4>
+                                </div>
+                                <div class="card_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                </div>
+                                <div class="card_read__more">
+                                    <button>Read More</button>
+                                </div>
+                            </div>
+                            <div class="service_card">
+                                <span><img src="https://img.icons8.com/?size=100&id=NACE42xI5asP&format=png&color=000000" alt="smartphone icon"></span>
+                                <div class="card_title">
+                                    <h4>App Development</h4>
+                                </div>
+                                <div class="card_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                </div>
+                                <div class="card_read__more">
+                                    <button>Read More</button>
+                                </div>
+                            </div>
+                            <div class="service_card">
+                                <span><img src="https://img.icons8.com/?size=100&id=37410&format=png&color=000000" alt="ai icon"></span>
+                                <div class="card_title">
+                                    <h4>Web 3.0</h4>
+                                </div>
+                                <div class="card_desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                </div>
+                                <div class="card_read__more">
+                                    <button>Read More</button>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                 </div>
+        </section>
+    </main>
+    <main>
+        <section id="#education">
+             <div class="container">
+                <div class="edu_content">
+                    <div class="edu_heading">
+                        <span><img src="https://img.icons8.com/?size=100&id=43830&format=png&color=FFFFFF" alt="down arrow"></span>
+                        <h2>Education</h2>
+                    </div>
+                    <div class="edu_card__container">
+                        <div class="edu_card__wrapper">
+                            <div class="edu_card__timeline">
+                                <span><img src="https://img.icons8.com/?size=100&id=GlEOr5x0aJpH&format=png&color=000000" alt="calender icon"></span>
+                                <p>2018-2019</p>
+                            </div>
+                            <div class="edu_card">
+                                <div class="edu_card__title">
+                                    <h4>Intermedition-N.P.S</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aliquam dolor, eveniet quibusdam esse quam nulla vel necessitatibus ut blanditiis?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edu_card__wrapper">
+                            <div class="edu_card__timeline">
+                                <span><img src="https://img.icons8.com/?size=100&id=GlEOr5x0aJpH&format=png&color=000000" alt="calender icon"></span>
+                                <p>2018-2019</p>
+                            </div>
+                            <div class="edu_card">
+                                <div class="edu_card__title">
+                                    <h4>Intermedition-N.P.S</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aliquam dolor, eveniet quibusdam esse quam nulla vel necessitatibus ut blanditiis?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edu_card__wrapper">
+                            <div class="edu_card__timeline">
+                                <span><img src="https://img.icons8.com/?size=100&id=GlEOr5x0aJpH&format=png&color=000000" alt="calender icon"></span>
+                                <p>2018-2019</p>
+                            </div>
+                            <div class="edu_card">
+                                <div class="edu_card__title">
+                                    <h4>Intermedition-N.P.S</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aliquam dolor, eveniet quibusdam esse quam nulla vel necessitatibus ut blanditiis?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+    </main>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <div class="content">
-            <img src="images/profile.jpg" alt="My photo">
-            <p>I am a passionate developer with experience in front-end and back-end technologies...</p>
-            <p>My goal is to build innovative and efficient solutions for the web.</p>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <h2>My Skills</h2>
-        <div class="content">
-            <p>HTML, CSS, JavaScript, TypeScript, React, and more...</p>
-            <p>I specialize in creating responsive and user-friendly websites.</p>
-            <img src="images/skills.jpg" alt="Skills illustration">
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div class="content">
-            <p>Project 1: Responsive Website</p>
-            <p>Project 2: JavaScript Game</p>
-            <img src="images/project1.jpg" alt="Project image">
-            <img src="images/project2.jpg" alt="Project image">
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <footer id="contact" class="footer">
-        <h2>Contact Me</h2>
-        <form action="#" class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </footer>
+    <!-- // 👉 Skills -->
+    <main>
+        <section id="#skills">
+              <div class="container">
+                <div class="skill_content">
+                    <div class="skill_heading">
+                        <span><img src="https://img.icons8.com/?size=100&id=43830&format=png&color=FFFFFF" alt="down arrow"></span>
+                        <h2>My Skills</h2>
+                    </div>
+                     <div class="skill_wrapper">
+                        <div class="skill_wrap__box">
+                            <div class="skill_head">
+                                <h6>Frotend</h6>
+                             </div>
+                             <div class="skill_card__content">
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-1">
+                                        <img src="https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000" alt="react icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>React</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-2">
+                                        <img src="https://img.icons8.com/?size=100&id=57852&format=png&color=000000" alt="js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Javascript</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-3">
+                                        <img src="https://img.icons8.com/?size=100&id=QikVS4SSLfDg&format=png&color=000000" alt="typescript icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Typescript</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-4">
+                                        <img src="https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000" alt="Next.js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Next.js</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-5">
+                                        <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="vue.js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Vue.js</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-6">
+                                        <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="Redux icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Redux</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-7">
+                                        <img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Tailwind</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-8">
+                                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="html icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>HTML</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-9">
+                                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="css icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Css</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-10">
+                                        <img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="Bootstrap icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Bootstrap</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-11">
+                                        <img src="https://img.icons8.com/?size=100&id=j9DnICNnlhGk&format=png&color=000000" alt="Angular icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Angular</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-12">
+                                        <img src="https://img.icons8.com/?size=100&id=p57acgidi9bj&format=png&color=000000" alt="react native icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>React-Native</span>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="skill_wrap__box">
+                            <div class="skill_head">
+                                <h6>Backend</h6>
+                             </div>
+                             <div class="skill_card__content">
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-13">
+                                        <img src="https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000" alt="react icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>React</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-14">
+                                        <img src="https://img.icons8.com/?size=100&id=57852&format=png&color=000000" alt="js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Javascript</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-15">
+                                        <img src="https://img.icons8.com/?size=100&id=QikVS4SSLfDg&format=png&color=000000" alt="typescript icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Typescript</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-16">
+                                        <img src="https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000" alt="Next.js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Next.js</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-17">
+                                        <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="vue.js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Vue.js</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-18">
+                                        <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="Redux icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Redux</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-19">
+                                        <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="Redux icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Redux</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-20">
+                                        <img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Tailwind</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-21">
+                                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="html icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>HTML</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-22">
+                                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="css icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Css</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-23">
+                                        <img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="Bootstrap icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Bootstrap</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-24">
+                                        <img src="https://img.icons8.com/?size=100&id=j9DnICNnlhGk&format=png&color=000000" alt="Angular icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Angular</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-25">
+                                        <img src="https://img.icons8.com/?size=100&id=p57acgidi9bj&format=png&color=000000" alt="react native icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>React-Native</span>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="skill_wrap__box">
+                            <div class="skill_head">
+                                <h6>Web 3.0</h6>
+                             </div>
+                             <div class="skill_card__content">
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-26">
+                                        <img src="https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000" alt="react icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>React</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-27">
+                                        <img src="https://img.icons8.com/?size=100&id=57852&format=png&color=000000" alt="js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Javascript</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-28">
+                                        <img src="https://img.icons8.com/?size=100&id=QikVS4SSLfDg&format=png&color=000000" alt="typescript icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Typescript</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-29">
+                                        <img src="https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000" alt="Next.js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Next.js</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-30">
+                                        <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="vue.js icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Vue.js</span>
+                                    </div>
+                                </div>
+                                <div class="skill_card__wrap">
+                                    <div class="skill_card__icon color-1">
+                                        <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" alt="Redux icon">
+                                    </div>
+                                    <div class="skill_card__title">
+                                        <span>Redux</span>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                     </div>
+                </div>
+              </div>
+        </section>
+    </main>
+    <main>
+        <section id="#projects">
+               <div class="container">
+                  <div class="project_content">
+                    <div class="project_heading">
+                        <span><img src="https://img.icons8.com/?size=100&id=43830&format=png&color=FFFFFF" alt="down arrow"></span>
+                        <h2>Latest Project</h2>
+                    </div>
+                    <div class="project_container">
+                        <div class="project_card">
+                            <div class="project_img">
+                                <img src="https://res.cloudinary.com/suberiq/image/upload/v1731566590/mtxc8ddmu4ffefx2xjhl.png" alt="udemy">
+                            </div>
+                            <div class="project_title__section">
+                                <span>Udemy clone</span>
+                                <a href="#">
+                                    <span>Live Preview</span>
+                                    <span><img src="https://cdn3.iconfinder.com/data/icons/arrows-set-12/512/exportarrow-512.png" alt="preview"></span>
+                                </a>
+                            </div>
+                            <div class="project_info">
+                                <span>Tech Used:</span>
+                            </div>
+                            <div class="project_desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta voluptates nobis nemo error quas, debitis quia ullam laboriosam vel?
+                            </div>
+                            <div class="project_source">
+                                <a href="#">Source Code</a>
+                            </div>
+                        </div>
+                        <div class="project_card">
+                            <div class="project_img">
+                                <img src="https://res.cloudinary.com/suberiq/image/upload/v1731566589/e4bww3hlnij2uc7au8th.png" alt="bookmyshow">
+                            </div>
+                            <div class="project_title__section">
+                                <span>Udemy clone</span>
+                                <a href="#">
+                                    <span>Live Preview</span>
+                                    <span><img src="https://cdn3.iconfinder.com/data/icons/arrows-set-12/512/exportarrow-512.png" alt="preview"></span>
+                                </a>
+                            </div>
+                            <div class="project_info">
+                                <span>BookMyShow:</span>
+                            </div>
+                            <div class="project_desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta voluptates nobis nemo error quas, debitis quia ullam laboriosam vel?
+                            </div>
+                            <div class="project_source">
+                                <a href="#">Source Code</a>
+                            </div>
+                        </div>
+                        <div class="project_card">
+                            <div class="project_img">
+                                <img src="https://res.cloudinary.com/suberiq/image/upload/v1731566590/nkjokpn4ejvfeoc0hxe0.png" alt="flipkart">
+                            </div>
+                            <div class="project_title__section">
+                                <span>Flipkart</span>
+                                <a href="#">
+                                    <span>Live Preview</span>
+                                    <span><img src="https://cdn3.iconfinder.com/data/icons/arrows-set-12/512/exportarrow-512.png" alt="preview"></span>
+                                </a>
+                            </div>
+                            <div class="project_info">
+                                <span>Tech Used:</span>
+                            </div>
+                            <div class="project_desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta voluptates nobis nemo error quas, debitis quia ullam laboriosam vel?
+                            </div>
+                            <div class="project_source">
+                                <a href="#">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+        </section>
+    </main>
+    <main>
+        <section id="#contact">
+                  <div class="container">
+                    <div class="contact_content">
+                         <div class="contact_heading">
+                            <span><img src="https://img.icons8.com/?size=100&id=43830&format=png&color=FFFFFF" alt="down arrow"></span>
+                            <h2>Contact Me!</h2>
+                         </div>
+                         <div class="contact_form__wrap">
+                            <form action="#" class="contact-form">
+                                <input type="text" placeholder="Your Name" maxlength="50" required>
+                                <input type="email" placeholder="Your Email" max="60" required>
+                                <textarea placeholder="Your Message" maxlength="450" rows="10" cols="10" required></textarea>
+                                <button type="submit">Send Message</button>
+                            </form>
+                         </div>
+                    </div>
+                  </div>
+        </section>
+    </main>
+    
+    
 </body>
 </html>

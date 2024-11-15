@@ -1,0 +1,125 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    margin: 0 1rem;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+}
+#menu-toggle {
+    display: none;
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    #menu-toggle:checked + .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 4rem;
+    text-align: center;
+}
+
+/* Section Styling */
+section {
+    padding: 3rem 2rem;
+}
+h2 {
+    margin-bottom: 1rem;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content img {
+    width: 40%;
+    border-radius: 8px;
+}
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.contact-form input, .contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button {
+    padding: 0.7rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Animation for section  */
+/* Animation for sections */
+.about, .skills, .projects {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.about.show, .skills.show, .projects.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover Effects */
+.nav-links a:hover, .contact-form button:hover {
+    color: #ff6347;
+}
+
+
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    .content img {
+        width: 80%;
+    }
+}
+
+
