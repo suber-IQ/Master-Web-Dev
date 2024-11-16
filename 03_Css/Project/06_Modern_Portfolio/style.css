@@ -8,7 +8,6 @@
 :root{
 
     /* 👉 Main Color Variables */
-    /* --primary-color: #102762; */
     --primary-color: #332FD0;
     --primary-color-light: #4A46E8;
     --secondary-color: #FFEB00;
@@ -26,8 +25,6 @@
 
     /* // button color */
     --button-color-one: rgba(51, 51, 51, 0.05);
-
-   
 
     /* // 👉  Define font Variables */
     
@@ -308,7 +305,7 @@ input[type="checkbox"].nav_toggle:checked ~ .nav_link {
     animation: fadeLeft 1s ease-out;
 }
 
-/* Optional: Apply animation to individual elements for staggered effect */
+/* Optional: Apply animation to individual elements  */
 .home_heading,
 .home_identity,
 .home_experience,
@@ -528,13 +525,12 @@ main .home_content .home_portfolio__img span > img {
    
 }
 
-@media (min-width: 1020px) {
-    /* main .home_content{
+/* @media (min-width: 1020px) {
+     main .home_content{
          height: 80vh; 
-    } */
+    } 
    
-    
-}
+} */
 /* // *********** 👉 Home Section responsive *********  */
 main .about_content {
     display: flex;
@@ -607,11 +603,6 @@ main .about_content .about_desc ul li{
     font-family: var(--first-font-family);
 
 }
-
-
-
-
-
 
 
 
@@ -808,7 +799,7 @@ main .cert_content .cert_card__container > .cert_card {
 }
 
 
-/* // 👉 Animation  2*/
+/* // 👉 Animation */
 
 main .cert_content .cert_card__container > .cert_card:hover {
     animation: roundBorder 3s infinite linear, jiggle var(--transition-speed) ease-out;
@@ -855,7 +846,6 @@ main .cert_content .cert_card__container > .cert_card:hover {
 }
 
 /* **************************************** */
-
 
 
 main .cert_content .cert_card__container .cert_card .cert_title {
@@ -974,6 +964,7 @@ main .cert_content .cert_card__container .cert_card .cert_view a span:last-child
 
 
 /* //👉 *********** Project Section ************  */
+
 main .project_content{
     margin-top: var(--p-exta-large);
 }
@@ -983,12 +974,7 @@ main .project_content .project_container{
     gap: var(--gutter-medium);
     margin-top: var(--p-big-exta-large);    
 }
-/* main .project_content .project_container .project_card {
-    background-color: var(--primary-color-light);
-    padding: var(--p-medium);
-    border-radius: var(--radius-large);
-    border-bottom: 6px solid var(--text-color);
-} */
+
 
 /* // 👉 Animation  */
 
@@ -1009,9 +995,8 @@ main .project_content .project_container .project_card:hover {
 }
 
 
-
-
 /* ************************************* */
+
 main .project_content .project_container .card_bg_color {
     background-color: var(--error-color);
 }
@@ -1146,7 +1131,6 @@ main .connect_content .connect_link ul{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-items: center; */
     gap: var(--gutter-small);
 }
 
@@ -1209,18 +1193,7 @@ main .contact_content .contact_card form > textarea::placeholder
     font-family: var(--first-font-family);
     color: var(--secondary-color-dark);
 }
-/* main .contact_content .contact_card form > button{
-    background-color: var(--secondary-color-dark);
-    border: none;
-    width: fit-content;
-    padding: var(--p-medium);
-    cursor: pointer;
-    border-radius: var(--radius-large);
-    color: var(--background-color);
-    font-family: var(--first-font-family);
-    border-bottom: 4px solid var(--primary-color-light);
-} */
-/* // 👉 Animation */
+
 
 main .contact_content .contact_card form > button {
     background-color: var(--secondary-color-dark);
@@ -1235,15 +1208,24 @@ main .contact_content .contact_card form > button {
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
 }
 
+/* // 👉 Animation */
+
 main .contact_content .contact_card form > button:hover {
     transform: translateY(-4px); /* Moves the button up by 4px */
     box-shadow: 0 6px 12px var(--primary-color-light); /* Adds a shadow for the raised effect */
 }
 
 
+/* ************************************** */
+
+
 /* //👉 *********** contact responsive ************  */
 
 @media (min-width: 768px) {
+    main .connect_content .connect_link ul{
+        width: 55%;
+        margin:0 auto;
+    }
     main .contact_content{
         display: flex;
         flex-direction: column;
@@ -1257,18 +1239,11 @@ main .contact_content .contact_card form > button:hover {
     }
 }
 @media (min-width: 1020px) {
-    main .project_content .project_container{
-        display: flex;
+    main .connect_content .connect_link ul{
+        width: 55%;
+        margin:0 auto;
     }
-    main .project_content .project_container .project_card{
-        display: flex;
-        gap: var(--gutter-medium);
-
-    }
-    main .project_content .project_container .project_card .project_first__img{
-        width: 40%;
-
-    }
+   
 }
 
 /* //👉 *********** footer section ************  */
