@@ -145,6 +145,8 @@ header nav .nav_content {
     border-right: 5px solid var(--secondary-color-dark);
 }
 
+
+
 header nav .nav_bar {
     display: flex;
     align-items: center;
@@ -180,6 +182,9 @@ header nav .nav_link ul {
     gap: var(--gutter-large);
 }
 
+
+
+
 header nav .nav_link ul li a {
 color: var(--text-color);
 font-size: var(--small-font-size);
@@ -190,6 +195,31 @@ transition: border-bottom 0.3s ease, transform 0.3s ease;
 display: inline-block;
 position: relative;
 }
+
+
+/* // 👉 Animation (a)  */
+
+/* Fade-left animation */
+@keyframes fadeTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header nav .nav_content {
+    animation: fadeTop 1s ease-in-out;
+    opacity: 1;
+    /* will-change: transform;  */
+
+}
+
+
+/* ********************************** */
 
 
 header nav .nav_content .nav_bar .nav_link ul li a:hover {
@@ -531,13 +561,46 @@ main .home_content .home_portfolio__img span > img {
     } 
    
 } */
-/* // *********** 👉 Home Section responsive *********  */
+
+/* // *********** 👉 About Section *********  */
+
 main .about_content {
     display: flex;
     flex-direction: column;
     padding-top: var(--p-big-exta-large);
     padding-bottom: var(--p-big-exta-large);
 }
+
+/* // 👉 Animation (content)  */
+
+/* Fade-left animation */
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+main .about_content {
+    animation: fadeLeft 1s ease-in-out;
+    opacity: 1;
+    will-change: transform; 
+}
+
+
+
+
+/* // *********************************************  */
+
+
+
+
+
+
 main .about_content .about_heading > h2,
 main .skills_content .skills_heading > h2,
 main .cert_content .cert_heading > h2,
@@ -663,6 +726,32 @@ main .skills_content{
     padding-top: var(--p-exta-large);
     padding-bottom: var(--p-big-exta-large);
 }
+
+
+/* // 👉 Animation (content)  */
+
+/* Fade-left animation */
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+main .skills_content {
+    animation: fadeLeft 1s ease-in-out;
+    opacity: 1;
+}
+
+
+
+/* // *********************************************  */
+
+
 main .skills_content .skills_design .skills_design__heading > h3,
 main .skills_content .skills_technologies .skills_tech__heading > h3,
 main .skills_content .skills_dev .skills_dev__heading > h3
@@ -760,7 +849,6 @@ main .skills_content .skills_dev .skills_dev__container > ul
 
 /* // *********** 👉 Certificate Section ************ */
 
-
 main .cert_content{
     padding-top: var(--p-exta-large);
 }
@@ -772,6 +860,35 @@ main .cert_content .cert_card__container{
     margin-top: var(--p-big-exta-large);
     padding-bottom: var(--p-medium);
 }
+
+
+/* 👉 Animation  */
+
+/* Fade-left animation */
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+main .cert_content .cert_card__container {
+    animation: fadeLeft 1s ease-in-out;
+    opacity: 1;
+}
+
+
+/* *********************************** */
+
+
+
+
+
+
 main .cert_content .cert_card__container::-webkit-scrollbar
 {
 	width: 5px;
@@ -975,10 +1092,30 @@ main .project_content .project_container{
     margin-top: var(--p-big-exta-large);    
 }
 
+/* // 👉 Animation (container) */
 
-/* // 👉 Animation  */
+/* Fade-left animation */
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
-/* Default styling for the project card */
+main .project_content .project_container {
+    animation: fadeLeft 1s ease-in-out;
+    opacity: 1;
+}
+
+
+
+/* *********************************** */
+
+
 main .project_content .project_container .project_card {
     background-color: var(--primary-color-light);
     padding: var(--p-medium);
@@ -987,6 +1124,9 @@ main .project_content .project_container .project_card {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-bottom 0.3s ease;
 }
+
+/* // 👉 Animation (card)  */
+
 
 main .project_content .project_container .project_card:hover {
     transform: translateY(-10px);
@@ -1175,6 +1315,37 @@ main .contact_content .contact_card{
   background-color: var(--text-color);
   border-bottom: 5px solid var(--secondary-color-dark);
 }
+
+
+/* // 👉 Animation (card)  */
+
+/* Fade-left animation */
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+main .contact_content .contact_card {
+    animation: fadeLeft 1s ease-in-out;
+    opacity: 1;
+    will-change: transform; 
+
+}
+
+main .contact_content .contact_card:hover {
+    animation: fadeLeft 1s ease-in-out;
+}
+
+
+/* // *********************************************  */
+
+
 main .contact_content .contact_card > form{
   display: flex;
   flex-direction: column;
@@ -1215,7 +1386,6 @@ main .contact_content .contact_card form > button:hover {
     box-shadow: 0 6px 12px var(--primary-color-light); /* Adds a shadow for the raised effect */
 }
 
-
 /* ************************************** */
 
 
@@ -1247,6 +1417,7 @@ main .contact_content .contact_card form > button:hover {
 }
 
 /* //👉 *********** footer section ************  */
+
 footer .footer_content{
     background-color: var(--secondary-color-dark);
     border-radius: var(--radius-medium);
